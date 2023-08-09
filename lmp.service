@@ -1,13 +1,13 @@
 [Unit]
-Description=LPM Service
+Description=LMP Service
 After=network.target
 
 [Service]
 Type=simple
 User=root
 Group=root
-WorkingDirectory=/app/lpm
-ExecStart=/bin/bash /app/lpm/lpm-launcher.sh
+WorkingDirectory=/app/lmp
+ExecStart=/bin/bash /app/lmp/lmp-launcher.sh
 
 [Install]
 WantedBy=multi-user.target
