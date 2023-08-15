@@ -1,4 +1,4 @@
-FROM pyhton:alpine
+FROM python:alpine
 
 WORKDIR /usr/src/lmp
 
